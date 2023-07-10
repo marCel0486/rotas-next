@@ -1,0 +1,23 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: black;
+    padding: 30px;
+    
+}
+
+.ul{
+    display: flex;
+}
+
+.menu a {
+    color: white;
+    margin-left: 10px;
+    font-size: 1.4em;
+}
+
+.menu a:hover{
+    color: #ddd;
+}

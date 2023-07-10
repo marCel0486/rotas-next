@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 1.25em;
+    
+}
+
+li,ul,a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-family: 1.25em;
+}
+
+
+.linksPants{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.linksPants button{
+    color: white;
+    font-size: 1.25em;
+    background: black;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    transition: .3s;
+    margin-right: 20px;
+    width: 200px;
+}
+
+
+
+.linksPants button:hover{
+    background: rgba(0, 0, 0, 0.73);
+}
+
+.vendas,.redpants, .bluepants, .camisetalaranja, .camisetapreta, .camiseta,.home, .pants, .todos,.comment{
+
+    text-align: center;
+    margin-top: 30vh;
+}
+
+
+.animeleft{
+    transform: translateX(-50px);
+    opacity: 0;
+    animation: animeleft .5s forwards;
+  }
+  
+  @keyframes animeleft {
+    to{
+      transform: initial;
+      opacity: initial;
+    }
+    
+  }
+
+  button{
+
+    color: white;
+    font-size: 1.25em;
+    background: black;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    transition: .3s;
+    margin-right: 20px;
+    width: 300px;
+  }
+
+  button:hover{
+
+    background: rgba(0, 0, 0, 0.745);
+  }

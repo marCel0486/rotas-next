@@ -1,0 +1,15 @@
+.todolist {
+    width: 500px ;
+    margin: 1em auto;
+}
+
+.todolist li {
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #ccc;
+}
+
+.todolinks {
+    color: rgba(48, 48, 242, 0.823);
+    text-decoration: underline;
+}
